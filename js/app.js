@@ -19,14 +19,16 @@ render(
 
 
           <div style="font-family: monospace" class="row">
-          <div class="1 col"></div>
-          <div class="card 3 col">
+          <div class="card 1 col">
           <div class="tc">
           <strong>${doc.gitmark['nick']}</strong> <br/>
           <img
             src="https://robohash.org/gitmark:ab6dedd6ef64069fadc00c3be68fd4298833af13bbf727963fbfc5804d292c9f:0"
           />
           </div>
+          </div>
+          <div class="card 11 col">
+          
 
               <p>
               Energy: ${doc.energy} Marks <br/>
@@ -41,11 +43,10 @@ render(
 
               </p>
             </div>
-            <div class="1 col"></div>
 
           </div>
 
-          <h5 class="tc">Bookmarks</h5>
+          <h4 class="tc">Bookmarks</h4>
 
           <div class="row">
           <div class="card col tc">
